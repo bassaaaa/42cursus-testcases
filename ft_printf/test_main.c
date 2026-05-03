@@ -6,7 +6,7 @@
 /*   By: tsito <tsito@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/03 16:16:29 by tsito             #+#    #+#             */
-/*   Updated: 2026/05/03 16:43:54 by tsito            ###   ########.fr       */
+/*   Updated: 2026/05/03 17:47:51 by tsito            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -128,7 +128,7 @@ int	main(void)
 	printf("ret: %d\n\n", ret_ft_printf);
 
 	printf("---- mix ----\nprintf   | ");
-	ret_printf = printf("[ Thisis test %c %s %p %d %i %u %x %X %% This is test ]\n",
+	ret_printf = printf("[ This is test %c %s %p %d %i %u %x %X %% This is test ]\n",
 			'Z', "abc", (void *)"abc", -1, INT_MAX, UINT_MAX, 48879U,
 			48879U);
 	printf("ret: %d\nft_printf| ", ret_printf);
