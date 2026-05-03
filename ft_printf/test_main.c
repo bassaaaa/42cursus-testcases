@@ -6,7 +6,7 @@
 /*   By: tsito <tsito@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/03 16:16:29 by tsito             #+#    #+#             */
-/*   Updated: 2026/05/03 16:16:56 by tsito            ###   ########.fr       */
+/*   Updated: 2026/05/03 16:42:14 by tsito            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,10 @@ int	main(void)
 	printf("ret: %d\n\n", ret_ft_printf);
 
 	printf("---- s ----\nprintf   | ");
-	ret_printf = printf("[ %s ]\n", "hello");
+	ret_printf = printf("[ %s %s ]\n", "hello", "world");
 	printf("ret: %d\nft_printf| ", ret_printf);
 	fflush(stdout);
-	ret_ft_printf = ft_printf("[ %s ]\n", "hello");
+	ret_ft_printf = ft_printf("[ %s %s ]\n", "hello", "world");
 	printf("ret: %d\n\n", ret_ft_printf);
 
 	printf("---- s NULL ----\nprintf   | ");
